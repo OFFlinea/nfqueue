@@ -1,0 +1,7 @@
+{
+  "blocked_methods": ["POST"],
+  "blocked_hosts": ["example.com", "bad.site"],
+  "blocked_uris": ["/admin", "/secret"],
+  "blocked_agents": ["sqlmap"],
+  "blocked_cookies": ["sessionid", "tracking"]
+}
